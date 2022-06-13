@@ -1,0 +1,13 @@
+spring:
+  main:
+    web-application-type: NONE
+
+cloud:
+  aws:
+    stack:
+      auto: false
+    region:
+      static: us-east-1
+    credentials:
+      #instanceProfile: true
+      use-default-aws-credentials-chain: true
